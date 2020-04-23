@@ -1,4 +1,4 @@
-# Shape
+#Shape
 ```java
 import java.util.Scanner;
 
