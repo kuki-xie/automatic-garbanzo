@@ -1,7 +1,8 @@
 # Java第四次上机作业
-## 在package:lib
+## 百度后拼凑出的没有完整的功能的代码
+### 在package:lib
 
-### Methods.java
+#### Methods.java
 ```java
 package lib;
 import java.util.Scanner;
