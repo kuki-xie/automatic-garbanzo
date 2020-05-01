@@ -1,0 +1,31 @@
+```c
+#include <stdio.h>
+int main()
+{
+	int i,num=1;
+	char a[109];
+	for(i=0;i<100;i++){
+		scanf("%c",&a[i]);
+		if(a[i]=='\n') break;
+	}
+	int n=i;
+	for(i=0;i<n;i++)
+		if(a[i]!=' '&&a[i+1]==' '){
+			num++;
+		}
+	printf("%d",num);
+	return 0;
+}
+/* 问题描述
+编写程序，输入一行字符，统计其中有多少个单词，单词之间用空格分隔开。
+输入说明
+输入一行字符。
+输出说明
+输出一个整数，表示单词个数。
+输入样例
+样例1输入
+I am a student.
+输出样例
+样例1输出
+4 */
+```
